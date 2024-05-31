@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More Conversions with the Cast Operator Method", "More Conversions with the Cast Operator Method\More Conversions with the Cast Operator Method.csproj", "{60AD7F0A-AA8F-414A-8CDC-397F10655B26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Cast Operator", "Web Cast Operator\Web Cast Operator.csproj", "{F962C704-46C7-4560-B1AB-B8EDB970CFB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{60AD7F0A-AA8F-414A-8CDC-397F10655B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60AD7F0A-AA8F-414A-8CDC-397F10655B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60AD7F0A-AA8F-414A-8CDC-397F10655B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F962C704-46C7-4560-B1AB-B8EDB970CFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F962C704-46C7-4560-B1AB-B8EDB970CFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F962C704-46C7-4560-B1AB-B8EDB970CFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F962C704-46C7-4560-B1AB-B8EDB970CFB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -49,7 +49,7 @@
             this.decimalNumberLabel.Name = "decimalNumberLabel";
             this.decimalNumberLabel.Size = new System.Drawing.Size(178, 23);
             this.decimalNumberLabel.TabIndex = 0;
-            this.decimalNumberLabel.Text = "Decimal Number:";
+            this.decimalNumberLabel.Text = "decimal moneyNumber:";
             this.decimalNumberLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // intNumberLabel
@@ -60,7 +60,7 @@
             this.intNumberLabel.Name = "intNumberLabel";
             this.intNumberLabel.Size = new System.Drawing.Size(178, 23);
             this.intNumberLabel.TabIndex = 1;
-            this.intNumberLabel.Text = "Whole Number:";
+            this.intNumberLabel.Text = "int wholeNumber:";
             this.intNumberLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // outputWholeNumberLabel
@@ -118,7 +118,7 @@
             // 
             this.richTextBox1.Location = new System.Drawing.Point(71, 250);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(672, 60);
+            this.richTextBox1.Size = new System.Drawing.Size(672, 54);
             this.richTextBox1.TabIndex = 7;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
@@ -136,7 +136,7 @@
             // 
             // richTextBox2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(72, 341);
+            this.richTextBox2.Location = new System.Drawing.Point(72, 324);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(671, 187);
             this.richTextBox2.TabIndex = 9;
@@ -159,8 +159,7 @@
             this.Controls.Add(this.intNumberLabel);
             this.Controls.Add(this.decimalNumberLabel);
             this.Name = "castOperatorForm";
-            this.Text = "More Conversion using the Cast Operator Method - decimal moneyNumber to integer w" +
-    "holeNumber";
+            this.Text = "decimal moneyNumber to integer wholeNumber";
             this.Load += new System.EventHandler(this.castOperatorForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
