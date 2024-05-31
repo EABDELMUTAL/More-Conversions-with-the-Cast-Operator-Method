@@ -96,9 +96,10 @@
             // 
             // realNumberTextBox
             // 
+            this.realNumberTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.realNumberTextBox.Location = new System.Drawing.Point(309, 82);
             this.realNumberTextBox.Name = "realNumberTextBox";
-            this.realNumberTextBox.Size = new System.Drawing.Size(448, 20);
+            this.realNumberTextBox.Size = new System.Drawing.Size(448, 22);
             this.realNumberTextBox.TabIndex = 13;
             this.realNumberTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -139,7 +140,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(800, 380);
+            this.ClientSize = new System.Drawing.Size(800, 581);
             this.Controls.Add(this.intCastOperator);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.exitButton);
