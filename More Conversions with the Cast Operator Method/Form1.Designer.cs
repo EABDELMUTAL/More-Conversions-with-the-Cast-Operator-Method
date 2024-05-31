@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(castOperatorForm));
             this.decimalNumberLabel = new System.Windows.Forms.Label();
             this.intNumberLabel = new System.Windows.Forms.Label();
             this.outputWholeNumberLabel = new System.Windows.Forms.Label();
@@ -35,6 +36,9 @@
             this.calculateButton = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.intCastOperator = new System.Windows.Forms.Label();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // decimalNumberLabel
@@ -91,7 +95,7 @@
             // clearButton
             // 
             this.clearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clearButton.Location = new System.Drawing.Point(567, 196);
+            this.clearButton.Location = new System.Drawing.Point(569, 196);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(75, 23);
             this.clearButton.TabIndex = 5;
@@ -102,7 +106,7 @@
             // exitButton
             // 
             this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exitButton.Location = new System.Drawing.Point(659, 195);
+            this.exitButton.Location = new System.Drawing.Point(664, 195);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(75, 23);
             this.exitButton.TabIndex = 6;
@@ -110,12 +114,43 @@
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(71, 250);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(672, 60);
+            this.richTextBox1.TabIndex = 7;
+            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            // 
+            // intCastOperator
+            // 
+            this.intCastOperator.BackColor = System.Drawing.Color.White;
+            this.intCastOperator.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.intCastOperator.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.intCastOperator.Location = new System.Drawing.Point(29, 23);
+            this.intCastOperator.Name = "intCastOperator";
+            this.intCastOperator.Size = new System.Drawing.Size(253, 30);
+            this.intCastOperator.TabIndex = 8;
+            this.intCastOperator.Text = "Int Cast Operator";
+            this.intCastOperator.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Location = new System.Drawing.Point(72, 341);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(671, 187);
+            this.richTextBox2.TabIndex = 9;
+            this.richTextBox2.Text = resources.GetString("richTextBox2.Text");
+            // 
             // castOperatorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(801, 307);
+            this.ClientSize = new System.Drawing.Size(801, 553);
+            this.Controls.Add(this.richTextBox2);
+            this.Controls.Add(this.intCastOperator);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.calculateButton);
@@ -141,6 +176,9 @@
         private System.Windows.Forms.Button calculateButton;
         private System.Windows.Forms.Button clearButton;
         private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Label intCastOperator;
+        private System.Windows.Forms.RichTextBox richTextBox2;
     }
 }
 

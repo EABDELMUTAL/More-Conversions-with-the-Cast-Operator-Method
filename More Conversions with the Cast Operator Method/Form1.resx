@@ -117,4 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>(The conversion uses the cast operator to convert the value of the moneyNumber variable into an int variable and assigns the converted value to a wholeNumber or an integer, or we also call ut wholeNumber variable. After this statement executes, the compiler assigns the int variable or the wholeNumber  an int value of 4500.)</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>Assignment Compatibility for int Variables
+
+Programmers can assign int values to int variables but not double or decimal values to int variables. For example, look at the following declarations:
+
+int hoursWorked = 40;  ← This works
+int unitsSold = 650m;  ← ERROR!
+int score = −25.5;     ← ERROR!
+
+Declarations: 
+The first declaration works because we initialise an int variable with an int value.
+However, the second declaration causes an error because programmers cannot assign a decimal value to an int variable. 
+The third declaration also causes an error because they cannot assign a double value to an int variable.
+
+Data provision:
+Programmers cannot assign a double or a decimal value to an int variable because such an assignment could result in data loss. 
+
+Here are the reasons:
+Double and decimal values may be fractional, but int variables can hold only integers. If they were allowed to store a fractional value in an int variable, the compiler would discard the fractional part of the value.
+The double and decimal values may be much larger or smaller than allowed by the range of an int variable. A double or a decimal number can be so large or small that it will not fit in an int variable.</value>
+  </data>
 </root>
